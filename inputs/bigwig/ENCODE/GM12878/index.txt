@@ -1,0 +1,5 @@
+bigWig files used for bigWigAverageOverBed
+Filename        Target  Accession       Experiment      Download_link
+H3K4me1.bw      H3K4me1 ENCFF831ZHL     ENCSR000AKF     https://www.encodeproject.org/files/ENCFF831ZHL/@@download/ENCFF831ZHL.bigWig
+DPF2.bw DPF2    ENCFF197LVJ     ENCSR509FWH     https://www.encodeproject.org/files/ENCFF197LVJ/@@download/ENCFF197LVJ.bigWig   BAF subunit
+
