@@ -1,0 +1,2 @@
+"motif_id"	"motif_name"	"p"	"n_foreground"	"n_background"	"fg_motif_pos"	"bg_motif_pos"	"fg_hit_rate"	"bg_hit_rate"	"risk_ratio"	"odds_ratio"	"fisher_p"	"conf_low"	"conf_high"
+"MA0113.3"	"NR3C1"	0	3097	108624	1151	6186	0.371649983855344	0.05694874060981	6.52604394540945	9.79434054783124	0	9.16887771097946	NA

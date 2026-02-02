@@ -1,0 +1,55 @@
+
+The following chromosome names did not match between the bigwig files
+chromosome	length
+chrUn_KI270320v1	      4416
+chrUn_KI270390v1	      2387
+chrUn_KI270752v1	     27745
+chrUn_KI270315v1	      2276
+chrUn_KI270748v1	     93321
+chrUn_KI270310v1	      1201
+chrUn_KI270425v1	      1884
+chrUn_KI270373v1	      1451
+chrUn_KI270418v1	      2145
+chrUn_KI270422v1	      1445
+chrUn_KI270539v1	       993
+chr14_KI270726v1_random	     43739
+chrUn_KI270544v1	      1202
+chrUn_KI270424v1	      2140
+chr2_KI270715v1_random	    161471
+chrUn_KI270366v1	      8320
+chrUn_KI270509v1	      2318
+chrUn_KI270305v1	      1472
+chrUn_KI270580v1	      1553
+chrUn_KI270302v1	      2274
+chrUn_KI270364v1	      2855
+chrUn_KI270362v1	      3530
+chrUn_GL000213v1	    164239
+chrUn_KI270420v1	      2321
+chr22_KI270731v1_random	    150754
+chrUn_KI270392v1	       971
+chrUn_KI270374v1	      2656
+chrUn_KI270579v1	     31033
+chrUn_KI270587v1	      2969
+chrUn_KI270312v1	       998
+chrUn_KI270330v1	      1652
+chrUn_KI270378v1	      1048
+chrUn_KI270745v1	     41891
+chrUn_KI270304v1	      2165
+chrUn_KI270741v1	    157432
+chrUn_KI270311v1	     12399
+chrUn_KI270582v1	      6504
+chrUn_KI270412v1	      1179
+chr22_KI270739v1_random	     73985
+chrUn_KI270336v1	      1026
+chrUn_KI270322v1	     21476
+chrUn_KI270372v1	      1650
+chrUn_KI270417v1	      2043
+chrUn_KI270429v1	      1361
+chrUn_KI270508v1	      1951
+chrUn_KI270371v1	      2805
+chrUn_KI270411v1	      2646
+chr11_KI270721v1_random	    100316
+chrUn_KI270382v1	      4215
+           chrM	     16569
+chrUn_KI270581v1	      7046
+Samples used for ordering within each group:  [0]

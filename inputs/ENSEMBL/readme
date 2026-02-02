@@ -1,0 +1,23 @@
+Extracted TSS for all transcripts and only protein-coding transcripts from ENSEMBL
+https://www.ensembl.org/biomart/martview/
+Filters:
+
+Chromosome/scaffold: 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , X , Y
+Transcript type: protein_coding
+Ensembl Canonical: Only
+
+Columns are: 
+
+Gene stable ID
+Transcript stable ID
+Chromosome/scaffold name
+Transcript start (bp)
+Transcript end (bp)
+Strand
+Transcription start site (TSS)
+Gene name
+Transcript type
+
+Element counts:
+78650 ensembl.canonical.all.transcript.tsv
+19733 ensembl.canonical.prot-coding.transcript.tsv

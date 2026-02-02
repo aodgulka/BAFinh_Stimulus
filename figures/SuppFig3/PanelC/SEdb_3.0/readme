@@ -1,0 +1,6 @@
+Download:
+http://www.licpathway.net/sedb/download_v3/SE_hg38_bed/SE_01_0030_SE_hg38.bed
+Paper:
+https://academic.oup.com/nar/article/51/D1/D280/6786195
+
+tail -n +2 SE_01_0030_SE_hg38.bed | cut -f1-3 > SE_01_0030_SE_hg38_noHeader_bed3.bed

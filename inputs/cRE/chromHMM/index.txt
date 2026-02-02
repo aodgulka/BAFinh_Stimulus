@@ -1,0 +1,5 @@
+Filename	Description	Link
+GSM936082_hg19_wgEncodeBroadHmmGm12878HMM.bed.gz	15 chromatin state model from ENCODE2/Broad (https://pmc.ncbi.nlm.nih.gov/articles/PMC3088773/)	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM936082
+hg19ToHg38.over.chain.gz	chain file for liftover from hg19 to hg38	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/
+hg38_wgEncodeBroadHmmGm12878HMM.bed	15 chromatin state model after liftover from hg19 to hg38
+hg38_GM12878HMM_intATAC.bed	Intersection of hg38_wgEncode_BraodHmmGm12878HMM.bed with filtered GM12878 ATAC-seq peaks (consensus_filt_annot.bed)

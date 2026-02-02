@@ -1,0 +1,6 @@
+Filename	BED reference	Comments
+ccRE_GM12878_intATAC_sort_indexed_counts.tsv	/inputs/cRE/ccRE/ccRE_GM12878_intATAC.bed	Using SCREEN ccRE annotations
+consensus_filt_annot_sort_indexed_counts.tsv	/inputs/bed/ATAC-seq/filtered/consensus_filt_annot.bed	Using our ChIP-seq peak overlap-based annotations (master peak set)
+invariant_promoters_24h_sort_indexed_counts.tsv /inputs/bed/ATAC-seq/invariant_promoters/invariant_promoters_24h.bed	Using promoters of genes with no change in expression at 24h (really 30h) of BAFinh
+invariant_promoters_6h_sort_indexed_counts.tsv	/inputs/bed/ATAC-seq/invariant_promoters/invariant_promoters_6h.bed	Same as above but using 6h timepoint RNAseq to identify promoters
+hg38_GM12878HMM_intATAC_sort_indexed_counts.tsv	/inputs/cRE/chromHMM/hg38_GM12878HMM_intATAC.bed	Using ChromHMM segmentations after intersection with filtered ATAC-seq peaks

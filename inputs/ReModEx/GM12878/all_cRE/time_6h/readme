@@ -1,0 +1,5 @@
+python Feature_analysis.py -i ~/manuscripts/BAF_stimulus_CellGenomics/inputs/DARs/time_6h_DARs.tsv -f logFC -d BAFdep -j 12
+Excluding features: []
+Best hyperparameters: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+Validation Accuracy (best): 0.81
+Test Accuracy: 0.81

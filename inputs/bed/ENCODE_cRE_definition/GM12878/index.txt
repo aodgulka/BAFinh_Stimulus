@@ -1,0 +1,6 @@
+File	Target	ENCODE_File	ENCODE_Experiment	Link
+H3K4me3.bed	H3K4me3	ENCFF636FWF	ENCSR000DRY	https://www.encodeproject.org/files/ENCFF636FWF/@@download/ENCFF636FWF.bed.gz
+H3K4me1.bed	H3K4me1	ENCFF453PEP	ENCSR000AKF	https://www.encodeproject.org/files/ENCFF453PEP/@@download/ENCFF453PEP.bed.gz
+H3K27ac.bed	H3K27ac	ENCFF361XMX	ENCSR000AKC	https://www.encodeproject.org/files/ENCFF361XMX/@@download/ENCFF361XMX.bed.gz
+H3K27me3.bed	H3K27me3	ENCFF035PQG	ENCSR000DRX	https://www.encodeproject.org/files/ENCFF035PQG/@@download/ENCFF035PQG.bed.gz
+CTCF.bed	CTCF	ENCFF827JRI	ENCSR000DKV	https://www.encodeproject.org/files/ENCFF827JRI/@@download/ENCFF827JRI.bed.gz

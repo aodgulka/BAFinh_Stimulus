@@ -1,0 +1,5 @@
+File	Description
+countmat.sh	bash driver for generating counts matrix over all consensus peaks
+hepg2_consensus_indexed_counts.tsv	Counts matrix over all consensus peaks in HepG2
+countmat_filt.sh	bash driver for generating counts matrix over filtered HepG2 consensus peaks
+hepg2_consensus_filt.tsv	Counts matrix over filtered set of HepG2 consensus peaks

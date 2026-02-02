@@ -1,0 +1,13 @@
+Condition	Replicate
+Veh	1
+Veh	2
+IFN	1
+IFN	2
+Dex	1
+Dex	2
+BRM	1
+BRM	2
+BRM_IFN	1
+BRM_IFN	2
+BRM_Dex	1
+BRM_Dex	2

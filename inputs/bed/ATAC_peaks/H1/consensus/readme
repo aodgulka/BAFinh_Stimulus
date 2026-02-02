@@ -1,0 +1,15 @@
+#making replicated peaks
+
+#control (DMSO vehicle)
+../../bash/replicate.sh ../raw/ATAC_DMSO_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/ATAC_DMSO_1_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz \
+../raw/ATAC_DMSO_2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/ATAC_DMSO_3_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz H1_DMSO_replicated
+#ACBI1 treated
+../../bash/replicate.sh ../raw/ATAC_ACBI1_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/ATAC_ACBI1_1_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz \
+../raw/ATAC_ACBI1_2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/ATAC_ACBI1_3_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz H1_ACBI1_replicated
+
+#SMARCA4 KD
+../../bash/replicate.sh ../raw/ATAC_A4-KD_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/ATAC_A4-KD_1_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz \
+../raw/ATAC_A4-KD_2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/ATAC_A4-KD_3_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz H1_A4-KD_replicated
+
+#generate consensus peak set
+./sort_merge_index.sh H1_consensus

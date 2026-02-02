@@ -1,0 +1,4 @@
+Excluding features: ['CTCF', 'H3K4me3', 'TSS_1kb']
+Best hyperparameters: {'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
+Validation Accuracy (best): 0.70
+Test Accuracy: 0.69

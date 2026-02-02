@@ -1,0 +1,5 @@
+python Feature_analysis.py -i ~/manuscripts/BAF_stimulus_CellGenomics/inputs/DARs/time_6h_DARs.tsv -f logFC -d BAFdep -j 12 -x CTCF H3K4me3 TSS_1kb
+Excluding features: ['CTCF', 'H3K4me3', 'TSS_1kb']
+Best hyperparameters: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
+Validation Accuracy (best): 0.70
+Test Accuracy: 0.69

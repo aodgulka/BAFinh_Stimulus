@@ -1,0 +1,38 @@
+#make replicated peak sets
+
+#vehicle 1h
+./replicate.sh ../raw/V_1h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/V_1h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/V_1h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz V_1h
+
+#ifn 1h
+./replicate.sh ../raw/IFN_1h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/IFN_1h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/IFN_1h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz IFN_1h
+
+#dex 1h
+./replicate.sh ../raw/Dex_1h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/Dex_1h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/Dex_1h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz Dex_1h
+
+#brm 1h
+./replicate.sh ../raw/B_1h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_1h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_1h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz B_1h
+#brm+ifn 1h
+./replicate.sh ../raw/B_IFN_1h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_IFN_1h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_IFN_1h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz B_IFN_1h
+
+#brm+dex 1h
+./replicate.sh ../raw/B_Dex_1h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_Dex_1h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_Dex_1h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz B_Dex_1h
+
+#vehicle 6h
+./replicate.sh ../raw/V_6h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/V_6h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/V_6h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz V_6h
+
+#ifn 6h
+./replicate.sh ../raw/IFN_6h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/IFN_6h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/IFN_6h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz IFN_6h
+
+#dex 6h
+./replicate.sh ../raw/Dex_6h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/Dex_6h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/Dex_6h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz Dex_6h
+
+#brm 6h
+./replicate.sh ../raw/B_6h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_6h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_6h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz B_6h
+#brm+ifn 6h
+./replicate.sh ../raw/B_IFN_6h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_IFN_6h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_IFN_6h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz B_IFN_6h
+
+#brm+dex 6h
+./replicate.sh ../raw/B_Dex_6h_rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_Dex_6h_1_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/B_Dex_6h_2_CKDL250011486-1A_232V7NLT3_L2_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz B_Dex_6h
+
+#sort/merge/index to generate consensus peak set
+./sort_merge_index.sh GM_stim_consensus

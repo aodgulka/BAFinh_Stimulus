@@ -1,0 +1,7 @@
+#command to generate timecourse counts matrix
+
+./countmat.sh ../../bed/ATAC_peaks/filtered/consensus_filt_annot_sort_indexed.bed timecourse_countmat.tsv
+
+#command to generate control counts matrix
+
+./countmat.sh ../../bed/ATAC_peaks/invariant_promoters/invariant_promoters_6h_sort_indexed.bed timecourse_control_countmat.tsv

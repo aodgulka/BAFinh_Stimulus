@@ -1,0 +1,12 @@
+
+#dmso
+
+./replicate.sh ../raw/dmso/rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/dmso/DMSO_1_CKDL250003458-1A_22YNHYLT3_L7_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/dmso/DMSO_2_CKDL250003458-1A_22YNHYLT3_L7_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz "dmso"
+
+#brm014
+
+./replicate.sh ../raw/brm014/rep.pooled.pval0.01.300K.bfilt.narrowPeak.gz ../raw/brm014/BRM_1_CKDL250003458-1A_22YNHYLT3_L7_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz ../raw/brm014/BRM_2_CKDL250003458-1A_22YNHYLT3_L7_1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz "brm"
+
+#consensus
+
+../../bash/sort_merge_index.sh dmso_replicated.bed brm_replicated.bed hepg2_consensus

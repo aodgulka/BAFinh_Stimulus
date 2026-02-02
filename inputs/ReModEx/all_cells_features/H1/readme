@@ -1,0 +1,5 @@
+python Feature_analysis.py -i /mnt/disk/home/agulka/manuscripts/BAF_stimulus_CellGenomics/inputs/DARs/H1/H1_ACBI1_DAR.tsv -fc logFC -d BAFdep -j 8 -x CTCF H3K27me3 H3K4me3 TSS_1kb
+Excluding features: ['CTCF', 'H3K27me3', 'H3K4me3', 'TSS_1kb']
+Best hyperparameters: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
+Validation Accuracy (best): 0.62
+Test Accuracy: 0.62
