@@ -1,0 +1,4 @@
+/mnt/disk/home/agulka/.conda/envs/genomeTools/lib/python3.13/site-packages/deeptools/plotHeatmap.py:768: UserWarning: constrained_layout not applied because axes sizes collapsed to zero.  Try making figure larger or Axes decorations smaller.
+  plt.savefig(outFileName, bbox_inches='tight', pad_inches=0.1, dpi=dpi, format=image_format)
+/mnt/disk/home/agulka/.conda/envs/genomeTools/lib/python3.13/site-packages/deeptools/plotHeatmap.py:768: UserWarning: constrained_layout not applied because axes sizes collapsed to zero.  Try making figure larger or Axes decorations smaller.
+  plt.savefig(outFileName, bbox_inches='tight', pad_inches=0.1, dpi=dpi, format=image_format)

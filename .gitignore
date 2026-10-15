@@ -56,3 +56,21 @@ inputs.symlink.bak.20260202_072505
 
 inputs/ReModEx/*/*/*/feature_matrix.csv
 inputs/PCHi-C/TS5_GM12878_promoter-other_significant_interactions.txt
+
+# ---- revised manuscript submission ----
+# superseded panel versions 
+v1/
+
+# Jupyter duplicate
+figures/Figure5/PanelD/PanelD-Copy1.ipynb
+
+inputs/eRNA_definition/FANTOM/
+inputs/eRNA_definition/dREG/
+inputs/ReModEx/GM12878/enh_only/time_6h_w_dREG/
+
+figures/SuppFig6/PanelH/GM12878_PCHi-C_ATAC_RNA.tsv
+
+# revision working directory
+revisions/
+
+inputs/ReModEx/GM12878/enh_only/time_0.5h_w_dREG/overlap_beds/

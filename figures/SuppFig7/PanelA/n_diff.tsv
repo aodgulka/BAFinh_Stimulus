@@ -1,0 +1,9 @@
+type	change	n
+CTCF_only	down	126
+CTCF_only	up	264
+active_enh	down	3172
+active_enh	up	372
+poised_enh	down	556
+poised_enh	up	225
+prom	down	1469
+prom	up	254
